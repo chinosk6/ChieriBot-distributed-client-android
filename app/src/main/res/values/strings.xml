@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Chieri bot distributed</string>
+    <string name="chieri_bot_client">Chieri Bot 分布式客户端</string>
+    <string name="ws_port">WS 端口</string>
+    <string name="input_ws_port">请输入 WebSocket 端口</string>
+    <string name="http_port">HTTP 端口</string>
+    <string name="input_http_port">请输入 HTTP 端口</string>
+    <string name="token">Token</string>
+    <string name="input_token">请输入 Token</string>
+    <string name="connect">连接</string>
+    <string name="reconnecting">重连中</string>
+    <string name="stop_reconnect">中止重连</string>
+    <string name="disconnect">断开连接</string>
+    <string name="log">Log</string>
+    <string name="noticeContent">使用常驻通知以减缓杀后台</string>
+    <string name="noticeClose">关闭通知</string>
+    <string name="blackWhiteSet">黑/白名单配置</string>
+    <string name="title_activity_bwset">BWSetActivity</string>
+    <string name="tabTextGroupMode">群聊设置</string>
+    <string name="tabTextPrivateMode">私聊设置</string>
+    <string name="unknownMode">未知模式</string>
+    <string name="loading">加载中</string>
+    <string name="selectTarget">选择目标</string>
+    <string name="selectAll">全选</string>
+    <string name="blackListMode">黑名单模式</string>
+    <string name="whiteListMode">白名单模式</string>
+    <string name="groupAlso">对群聊生效</string>
+    <string name="msgRuleSet">消息规则设置</string>
+    <string name="msgBlock">消息拦截</string>
+    <string name="msgReplace">消息替换</string>
+    <string name="cancel">取消</string>
+    <string name="pokeSet">戳一戳设置</string>
+    <string name="notAngryCorpus">未生气语料</string>
+    <string name="angryCorpus">生气语料</string>
+    <string name="save">保存</string>
+    <string name="edit_msgrule_json">修改 msgrule.json</string>
+
+</resources>

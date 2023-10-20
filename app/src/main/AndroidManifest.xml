@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ChieriBotDistributed"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".MsgRuleImportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PokeSetActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ChieriBotDistributed.NoActionBar" />
+        <activity
+            android:name=".MemberSelectActivity"
+            android:exported="false"
+            android:label="@string/selectTarget"
+            android:theme="@style/Theme.ChieriBotDistributed.NoActionBar" />
+        <activity
+            android:name=".BWSetActivity"
+            android:exported="false"
+            android:label="@string/blackWhiteSet"
+            android:theme="@style/Theme.ChieriBotDistributed.NoActionBar" />
+        <activity
+            android:name=".MsgRuleActivity"
+            android:exported="false"
+            android:label="@string/msgRuleSet"
+            android:theme="@style/Theme.ChieriBotDistributed.NoActionBar" />
+
+        <service
+            android:name=".service.MainService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="TODO" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

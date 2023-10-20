@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="规则 (正则表达式)" />
+
+    <EditText
+        android:id="@+id/inputEditTextPattern"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入规则 (正则表达式)" />
+
+    <TextView
+        android:id="@+id/textViewReplaceTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="替换为 (普通字符串)" />
+
+    <EditText
+        android:id="@+id/inputEditTextReplaceString"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="替换文本 (普通字符串)" />
+
+    <TextView
+        android:id="@+id/textViewPriority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="优先级 (数字越小越优先)" />
+
+    <EditText
+        android:id="@+id/inputEditTextPriority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="优先级" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="匹配规则" />
+
+    <CheckBox
+        android:id="@+id/checkBoxIgnoreCase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="忽略大小写" />
+    <CheckBox
+        android:id="@+id/checkBoxMultiline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="多行匹配 (影响^和$)" />
+    <CheckBox
+        android:id="@+id/checkBoxDotMatchesAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使 . 匹配包括换行符在内的所有字符" />
+
+
+</LinearLayout>
